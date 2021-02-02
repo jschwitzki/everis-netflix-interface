@@ -1,0 +1,22 @@
+@media screen and (max-width: 750px) {
+    header .container  {
+        display:flex;
+        flex-direction: column;
+    }
+
+    .play-button {
+        margin-top: 5px;
+        width: 190px;
+    }
+
+    .more-info-button {
+        margin-top: 5px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .description { 
+        width: 50%;
+    }
+}
